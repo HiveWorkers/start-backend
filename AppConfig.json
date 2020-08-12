@@ -1,0 +1,39 @@
+{
+    "name" : "starter",
+    "port": "3000",
+    "encryption_key" : "Anticonstitution1998",
+    "database" : {
+        "connexion" : "pgsql",
+        "host" : "localhost",
+        "port" : 5432,
+        "database" : "starter-bd",
+        "user" : "postgres",
+        "password" : "physio1998"
+    },
+    "email" : {
+        "pseudo": "starter-email",
+        "host": "smtp.googlemail.com",
+        "port": 465,
+        "secure": true,
+        "user" : "bilgate2016@gmail.com",
+        "password" : "bilgate2016"
+    },
+    "maintenance": false,
+    "log": {
+        "backend": "devis.log",
+        "backoffice": "src/back-office.log",
+        "app": "src/devis.log"
+    },
+    "mode": {
+        "env": "dev",
+        "rep-prod": "dist",
+        "rep-dev": "src"
+    },
+    "migration": {
+        "SQL-dest": "migrations-sql",
+        "object-dest": "src/orm"
+    },
+    "conf-page": {
+        "create-priv": true
+    }
+}

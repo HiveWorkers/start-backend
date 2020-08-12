@@ -1,0 +1,20 @@
+class {0}Entity extends Entity<{0}>{
+    {3}
+
+    constructor ({1}?: {0}) {
+        super();
+        if({1}){
+            {2}
+        }
+    }
+
+    Init ({1}?: {0}) {
+        if({1}){
+            {2}
+        }
+        
+        return this;
+    }
+    
+    {4}
+}

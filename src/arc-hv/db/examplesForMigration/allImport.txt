@@ -1,0 +1,2 @@
+import { Entity } from "{0}/db/entity";
+import { CModel, Model } from "{0}/db/model";

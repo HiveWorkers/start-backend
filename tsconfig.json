@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "target" : "ES6",
+    "types": [ "node", "reflect-metadata" ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "strict": true,
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "exclude": ["node_modules", "dist-js", "dist"],
+  "files": [
+    "expressjs.d.ts"
+  ]
+}

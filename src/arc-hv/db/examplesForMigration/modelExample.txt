@@ -1,0 +1,13 @@
+@Model({
+    table : "{0}",
+    nullable : [{5}],
+    fillable : [{2}],
+    hash_member : [{3}],
+    secure_member : [{4}],
+})
+class {1}Model  extends CModel<{1}Entity, {1}>
+{
+    constructor(EntityType: new (argsEntity?: {1} | undefined) => {1}Entity){
+        super(EntityType);
+    }
+}

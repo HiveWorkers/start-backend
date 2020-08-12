@@ -1,0 +1,1 @@
+export const {0}Model:{1}Model = new {1}Model({1}Entity);
